@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg1"
+    tools:context=".Register"
+    android:padding="39dp">
+
+
+    <ImageView
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/reg" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName"
+        android:hint="Name"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="4dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMail"
+        android:hint="Mail"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="4dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLogin"
+        android:hint="Login"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="4dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="4dp"/>
+
+    <Button
+        android:id="@+id/BRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
